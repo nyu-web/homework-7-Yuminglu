@@ -1,0 +1,204 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+header{
+    font-family: 'Amatic SC', cursive;
+    margin-left: 380px;
+    margin-top: 50px;
+    font-size: 80px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    color: #dddfd4;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-button {
+    padding: 15px 0 0 10px;
+}
+
+.game-board {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    min-width: 400px;
+    min-height: 400px;
+    width: 100px;
+    height: 100px;
+}
+
+.playBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    background-color: #7abcac;
+    color: #dddfd4;
+}
+
+.notPlayed:hover {
+    background-color: #4e8274;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.no-display {
+    display: none;
+}
+
+#startGame {
+    width: 80px;
+    height: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 20px;
+}
+
+.container-name {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-player1 {
+    height: 30px;
+    width: 120px;
+    margin: 15px 0;
+}
+
+#container-player2 {
+    height: 30px;
+    width: 120px;
+}
+
+input {
+    height: 30px;
+    width: 120px;
+}
+
+#addPlayer1 {
+    padding-left: 10px;
+    margin: 20px;
+    color: #dddfd4;
+    background-color: #4e8274;
+}
+
+button {
+    border: none;
+}
+
+button:focus { outline: none; }
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+    background-color: #dddfd4;
+    color: #4e8274;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#addPlayer2 {
+    padding-left: 10px;
+    margin: 20px;
+    color: #dddfd4;
+    background-color: #4e8274;
+}
+
+#player1 {
+    margin: 20px;
+}
+
+.flexy {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddfd4;
+    font-size: 25px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winningLine {
+    background-color: #d6eff2;
+    color: #9fd4cf;
+}
+
+[id='0'] {
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-color: white;
+}
+
+[id='1'] {
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-color: white;
+}
+
+[id='2'] {
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-color: white;
+}
+
+[id='3'] {
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+    border-color: white;
+}
+
+[id='4'] {
+    border: 3px solid;
+    border-color: white;
+}
+
+[id='5'] {
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    border-color: white;
+}
+
+[id='6'] {
+    border-right: 3px solid;
+    border-top: 3px solid;
+    border-color: white;
+}
+
+[id='7'] {
+    border-right: 3px solid;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-color: white;
+}
+
+[id='8'] {
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-color: white;
+}
