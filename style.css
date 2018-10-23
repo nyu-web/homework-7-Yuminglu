@@ -1,0 +1,104 @@
+#container {
+    font-family: 'Amatic SC', cursive;
+    width: 725px;
+    height: 720px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #2d3538;
+}
+
+#game-board {
+    background-color: rgb(254, 254, 254);
+    height: 440px;
+    width: 440px;
+    margin: auto;
+}
+
+.game-space {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 140px;
+    background-color: #7abcac;
+    height: 140px;
+    width: 140px;
+    float: left;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.game-space:hover {
+    background-color: #4e8274;
+}
+
+.left {
+    margin-right: 10px;
+
+}
+
+.right {
+    margin-left: 10px;
+}
+
+#container h1 {
+    font-family: 'Amatic SC', cursive;
+    font-transform: uppercase;
+    font-size: 80px;
+    letter-spacing:
+    margin-top: 0;
+}
+
+#container h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#new-game {
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    color: dimgrey;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
+
+#scoreboard-p1 {
+    font-family: 'Amatic SC', cursive;
+    width: 130px;
+    position: relative;
+    bottom: 355px;
+    font-size: 1.4em;
+}
+
+#scoreboard-p1 h3 {
+    margin-bottom: 10px;
+}
+
+#score-p1 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+#scoreboard-p2 {
+    font-family: 'Amatic SC', cursive;
+    margin-left: 595px;
+    position: relative;
+    bottom: 473px;
+    width: 130px;
+    font-size: 1.4em;
+}
+
+#scoreboard-p2 h3 {
+    margin-bottom: 10px;
+}
+
+#score-p2 {
+    margin-top: 0;
+    font-size: 2em;
+}
